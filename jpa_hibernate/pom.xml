@@ -8,6 +8,13 @@
   <description>Projeto Administrativo para cadastros de Clientes e Produtos usando Hibernate e JPA</description>
   <url>http://maven.apache.org</url>
 
+  <!-- ✅ Configuração do compilador -->
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
