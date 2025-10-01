@@ -4,9 +4,13 @@
   <groupId>com.techcamps.cadastros</groupId>
   <artifactId>administrativo-api</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
   <name>Projeto Admin Demo</name>
   <description>Projeto Administrativo para cadastros de Clientes e Produtos usando Hibernate e JPA</description>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>mongoDB</module>
+  </modules>
 
   <!-- ✅ Configuração do compilador -->
   <properties>
